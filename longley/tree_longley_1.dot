@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="gnp <= 364248.5\nsamples = 11\nvalue = 63750.545", fillcolor="#f4caac"] ;
+1 [label="year <= 1950.5\nsamples = 7\nvalue = 61917.714", fillcolor="#fae6d8"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gnp.deflator <= 88.35\nsamples = 4\nvalue = 60700.75", fillcolor="#fef8f4"] ;
+1 -> 2 ;
+3 [label="samples = 2\nvalue = 60247.0", fillcolor="#ffffff"] ;
+2 -> 3 ;
+4 [label="samples = 2\nvalue = 61154.5", fillcolor="#fcf1ea"] ;
+2 -> 4 ;
+5 [label="year <= 1951.5\nsamples = 3\nvalue = 63540.333", fillcolor="#f5ceb1"] ;
+1 -> 5 ;
+6 [label="samples = 1\nvalue = 63221.0", fillcolor="#f6d2b9"] ;
+5 -> 6 ;
+7 [label="samples = 2\nvalue = 63700.0", fillcolor="#f4cbae"] ;
+5 -> 7 ;
+8 [label="gnp <= 420119.0\nsamples = 4\nvalue = 66958.0", fillcolor="#ea9a61"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="population <= 116241.0\nsamples = 2\nvalue = 65504.0", fillcolor="#efb083"] ;
+8 -> 9 ;
+10 [label="samples = 1\nvalue = 64989.0", fillcolor="#f0b88f"] ;
+9 -> 10 ;
+11 [label="samples = 1\nvalue = 66019.0", fillcolor="#eda977"] ;
+9 -> 11 ;
+12 [label="year <= 1958.0\nsamples = 2\nvalue = 68412.0", fillcolor="#e6853f"] ;
+8 -> 12 ;
+13 [label="samples = 1\nvalue = 68169.0", fillcolor="#e78844"] ;
+12 -> 13 ;
+14 [label="samples = 1\nvalue = 68655.0", fillcolor="#e58139"] ;
+12 -> 14 ;
+}
